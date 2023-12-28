@@ -10,19 +10,20 @@ Page({
       {
         className:'p1',
         name:'商家名称'
-      },{
-        className:'p2',
-        name:'商家名称'
-      },{
-        className:'p3',
-        name:'商家名称'
-      },{
-        className:'p4',
-        name:'商家名称'
-      },{
-        className:'p5',
-        name:'商家名称'
-      }
+      },
+      // {
+      //   className:'p2',
+      //   name:'商家名称'
+      // },{
+      //   className:'p3',
+      //   name:'商家名称'
+      // },{
+      //   className:'p4',
+      //   name:'商家名称'
+      // },{
+      //   className:'p5',
+      //   name:'商家名称'
+      // }
     ]
   },
 

@@ -1,6 +1,6 @@
 <!--pages/mapNavigation/mapNavigation.wxml-->
 <view class="map-wrap">
-  <t-image src="{{imageSrc}}" mode="aspectFill" />
+  <t-image src="{{imageSrc}}" mode="widthFix" />
   <view class="position">
     <block wx:for="{{point}}">
         <view class="point {{item.className}}"> 
@@ -8,7 +8,7 @@
             <view class="icon">
               <t-icon name="location" color="#fff" size="44rpx"/>
             </view>
-            <view class="name">{{item.name}}</view>
+            <!-- <view class="name">{{item.name}}</view> -->
           </navigator>
         </view>
     </block>

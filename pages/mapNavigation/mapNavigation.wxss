@@ -1,6 +1,5 @@
 /* pages/mapNavigation/mapNavigation.wxss */
 .map-wrap{
-  height: 100vh;
   border-radius: 15rpx;
   background-color: #fff;
   box-sizing: border-box;
@@ -42,7 +41,7 @@
   display: inline-block;
 }
 .p1{
-  transform: translate(-320rpx,-440rpx);
+  transform: translate(-165rpx,-240rpx);
 }
 .p2{
   transform: translate(-80rpx,-280rpx);
