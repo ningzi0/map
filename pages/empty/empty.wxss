@@ -1,0 +1,12 @@
+/* pages/empty/empty.wxss */
+.empty{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+navigator{
+  display: block;
+  text-align: center;
+  margin-top: 30rpx;
+}

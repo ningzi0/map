@@ -1,0 +1,13 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+  <t-input placeholder="请输入文字" borderless clearable prefix-icon="search" focus></t-input>
+  <text bind:tap="navigateBack">取消</text>
+</view>
+<view class="hotSearch">
+  <view class="title">
+    <view class="t-l">热门搜索 </view>
+  </view>
+  <view class="tag">
+      <text wx:for="{{searchHot}}">{{item}}</text>
+  </view>
+</view>

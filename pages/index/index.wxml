@@ -1,0 +1,27 @@
+<t-swiper 
+  class="banner"
+  current="{{current}}"
+  autoplay="{{autoplay}}"
+  duration="{{duration}}"
+  interval="{{interval}}"
+  navigation="{{ { type: 'dots' } }}"
+  list="{{swiperList}}"
+>
+</t-swiper>
+<view class="gridSearch">
+  <t-grid class="block" class="grid" >
+    <t-grid-item text="{{item.text}}" image="{{item.img}}" wx:for="{{gridData}}" url="/pages/mapNavigation/mapNavigation"/>
+  </t-grid>
+  <t-sticky>
+    <search></search>
+  </t-sticky>
+</view>
+<view class="container">
+    <view class="title">
+      <view class="t-l"><t-image class="titLogoImg" src="/assets/logo.png" mode="aspectFill" width="23" height="23" /> <text>热门活动</text></view>
+    </view>
+    <gridList></gridList>
+</view>
+<view class="footer">
+  <t-footer text="{{footerText}}"></t-footer>
+</view>

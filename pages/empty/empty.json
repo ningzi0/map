@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "t-empty": "tdesign-miniprogram/empty/empty",
+    "t-button": "tdesign-miniprogram/button/button"
+  },
+  "navigationBarTitleText": "开发中，敬请期待"
+}

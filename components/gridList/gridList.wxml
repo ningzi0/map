@@ -1,0 +1,12 @@
+<!--components/gridList/gridList.wxml-->
+<view class="content">
+  <view class="item" wx:for="{{activityData}}">
+    <navigator url="/pages/MerchantDetails/MerchantDetails" hover-class="none">
+      <t-image src="{{item.imgSrc}}" mode="aspectFill" />
+      <view class="i-info">
+          <view class="i-infoTitle">{{item.infoTitle}}</view>
+          <view class="i-infoDes">{{item.infoDes}}</view>
+      </view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<!--components/horizontalList/horizontalList.wxml-->
+<view class="activityCon">
+    <view class="item" wx:for="{{activityData}}">
+      <navigator url="/pages/MerchantDetails/MerchantDetails" hover-class="none">
+          <t-image src="{{item.imgSrc}}" mode="aspectFill" />
+          <view class="a-info">
+              <view class="title">{{item.infoTitle}}</view>
+              <view class="a-des">
+                <view class="p">{{item.infoDes}}</view>
+                <view class="tag">
+                  <t-tag class="margin-16" variant="light" icon="time" theme="primary">日期：{{item.date}}</t-tag>
+                </view>
+              </view>
+          </view>
+        </navigator>
+    </view>
+</view>

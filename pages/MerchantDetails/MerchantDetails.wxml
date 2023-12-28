@@ -1,0 +1,46 @@
+<t-swiper 
+  class="banner"
+  current="{{current}}"
+  autoplay="{{autoplay}}"
+  duration="{{duration}}"
+  interval="{{interval}}"
+  navigation="{{ { type: 'dots' } }}"
+  list="{{swiperList}}"
+></t-swiper>
+
+<view class="info">
+    <view class="infoItem flex">
+      <view class="left name">
+        <t-icon name="portrait" color="#999" size="36rpx"/>
+        <text class="weight">商家名称</text>
+      </view>
+      <t-toast id="t-toast" />
+      <view class="right" bind:tap="click">
+        <view class="collect on" wx:if="{{show}}">收藏</view>
+        <view class="Cancel on" wx:if="{{!show}}">已收藏</view>
+      </view>
+    </view>
+</view>
+<view class="info">
+  <block wx:for="{{ info }}">
+      <view class="infoItem">
+        <view class="left">
+          <t-icon name="{{item.icon}}" color="#999" size="36rpx"/>
+          <text class="weight">{{item.timeName}}</text>
+          <text class="infoCon info-des">{{item.timeDate}}</text>
+        </view>
+      </view>
+  </block>
+</view>
+
+<view class="recommend">
+  <view class="title">
+      <view class="t-l"><t-image class="titLogoImg" src="/assets/logo.png" mode="aspectFill" width="23" height="23" /> <text>热门推荐</text></view>
+    </view>
+  <view class="recommendContent">
+      <horizontalList></horizontalList>
+  </view>
+</view>
+<view class="footer">
+  <t-footer text="{{footerText}}"></t-footer>
+</view>

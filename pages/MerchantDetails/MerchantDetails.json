@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "horizontalList":"/components/horizontalList/horizontalList",
+    "t-swiper": "tdesign-miniprogram/swiper/swiper",
+    "t-swiper-nav": "tdesign-miniprogram/swiper-nav/swiper-nav",
+    "t-icon": "tdesign-miniprogram/icon/icon",
+    "t-toast": "tdesign-miniprogram/toast/toast",
+    "t-footer": "tdesign-miniprogram/footer/footer",
+    "t-image": "tdesign-miniprogram/image/image"
+  },
+  "navigationBarTitleText": "商家详情"
+}

@@ -1,0 +1,16 @@
+{
+  "component": true,
+  "usingComponents": {
+    "gridList":"/components/gridList/gridList",
+    "navigation-bar": "/components/navigation-bar/navigation-bar",
+    "search": "/components/search/search",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-swiper": "tdesign-miniprogram/swiper/swiper",
+    "t-swiper-nav": "tdesign-miniprogram/swiper-nav/swiper-nav",
+    "t-grid": "tdesign-miniprogram/grid/grid",
+    "t-grid-item": "tdesign-miniprogram/grid-item/grid-item",
+    "t-footer": "tdesign-miniprogram/footer/footer",
+    "t-sticky": "tdesign-miniprogram/sticky/sticky",
+    "t-image": "tdesign-miniprogram/image/image"
+  }
+}

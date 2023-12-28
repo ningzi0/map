@@ -1,0 +1,58 @@
+/* pages/mapNavigation/mapNavigation.wxss */
+.map-wrap{
+  height: 100vh;
+  border-radius: 15rpx;
+  background-color: #fff;
+  box-sizing: border-box;
+  position: relative;
+}
+.map-wrap image{
+  height: 100%;
+  width: 100%;
+}
+.position .point{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.position .point .icon{
+  width: 70rpx;
+  height: 70rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: #6e5cfb;
+  border-radius: 50%;
+  padding: 7rpx;
+  margin: 0 auto;
+}
+.position .point .name{
+  text-align: center;
+  font-size: 28rpx;
+  background: #6f5cfb;
+  padding: 5rpx 15rpx;
+  border-radius: 5rpx;
+  margin: 10rpx 0 0;
+  color: #fff;
+  width: 120rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.position .point .t-icon{
+  display: inline-block;
+}
+.p1{
+  transform: translate(-320rpx,-440rpx);
+}
+.p2{
+  transform: translate(-80rpx,-280rpx);
+}
+.p3{
+  transform: translate(-20rpx,-20rpx);
+}
+.p4{
+  transform: translate(-20rpx,-600rpx);
+}
+.p5{
+  transform: translate(220rpx,-400rpx);
+}

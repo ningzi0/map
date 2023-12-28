@@ -1,0 +1,50 @@
+/* pages/MerchantDetails/MerchantDetails.wxss */
+
+.banner{
+  margin:20rpx;
+}
+.info{
+  margin: 20rpx;
+  background: #fff;
+  border-radius: 15rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #343434;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoItem{
+  padding: 30rpx;
+}
+.infoItem .left{
+  display: flex;
+  align-items: top;
+}
+.infoItem .weight{
+  font-weight: bold;
+  margin-left: 15rpx;
+}
+.infoItem .on{
+  border: 1px solid #a8a8a8;
+  padding: 5rpx 30rpx;
+  border-radius: 5rpx;
+}
+.info-des{
+  display: inline-block;
+  width: 65%;
+}
+.name{
+  width: 72%;
+  align-items: center;
+}
+.recommend{
+  background: #fff;
+  margin: 0 20rpx;
+  border-radius: 15rpx;
+}
+.recommendContent{
+  padding: 0 20rpx;
+}

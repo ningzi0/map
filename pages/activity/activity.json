@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "horizontalList":"/components/horizontalList/horizontalList",
+    "search": "/components/search/search",
+    "t-tabs": "tdesign-miniprogram/tabs/tabs",
+    "t-tab-panel": "tdesign-miniprogram/tab-panel/tab-panel",
+    "t-footer": "tdesign-miniprogram/footer/footer",
+    "t-sticky": "tdesign-miniprogram/sticky/sticky"
+  }
+}

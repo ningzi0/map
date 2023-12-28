@@ -1,0 +1,22 @@
+
+.grid{
+  margin:0 20rpx;
+}
+.banner{
+  margin:20rpx;
+}
+.gridSearch{
+  background-color: #fff;
+  margin: 0 20rpx;
+  padding-bottom: 20rpx;
+  border-radius: 15rpx;
+}
+.container{
+  background-color: #fff;
+  margin: 20rpx;
+  border-radius: 15rpx;
+  min-height: 200rpx;
+  padding-bottom: 20rpx;
+}
+
+

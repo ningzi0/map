@@ -1,0 +1,22 @@
+<view class="header">
+    <t-image src="{{userBg}}" mode="aspectFill"/>
+    <view class="replace">
+      <t-button size="small" theme="danger" >更换封面</t-button>
+    </view>
+    <view class="user">
+      <image src="https://image.meiye.art/pic_1702710121176" mode="aspectFill"/>
+      <view class="userText">迈扑Map</view>
+    </view>
+</view>
+
+<view class="userContent">
+  <block wx:for="{{ userData }}">
+      <navigator url="{{item.url}}" hover-class="none">
+        <view class="left">
+          <t-icon name="{{item.icon}}" color="#6e5cfb" size="34rpx"/> 
+          <text>{{item.text}}</text> 
+        </view>
+        <t-icon name="chevron-right-s" color="#ddd" size="64rpx"/>
+      </navigator>
+  </block>
+</view>

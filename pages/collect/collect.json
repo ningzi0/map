@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "gridList":"/components/gridList/gridList"
+  },
+  "navigationBarTitleText": "我的收藏"
+}

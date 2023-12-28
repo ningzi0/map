@@ -1,0 +1,4 @@
+
+  <navigator url="/pages/search/search" class="search">
+    <t-icon name="search" color="#999" size="34rpx"/><text>输入关键字搜索</text>
+  </navigator>
