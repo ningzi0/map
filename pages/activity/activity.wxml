@@ -13,13 +13,13 @@
     t-class="custom-tabs"
     t-class-content="custom-panel"
   >
-    <t-tab-panel label="活动一" value="0">
+    <t-tab-panel icon="tree-list" badge-props="{{ { dot: true, offset: ['-10rpx', '4rpx'] } }}"  label="活动一" value="0">
       <horizontalList></horizontalList>
     </t-tab-panel>
-    <t-tab-panel label="活动二" value="1">
+    <t-tab-panel icon="tree-list" badge-props="{{ { dot: true, offset: ['-10rpx', '4rpx'] } }}"  label="活动二" value="1">
       <horizontalList></horizontalList>
     </t-tab-panel>
-    <t-tab-panel label="活动三" value="2">
+    <t-tab-panel icon="tree-list" badge-props="{{ { dot: true, offset: ['-10rpx', '4rpx'] } }}"  label="活动三" value="2">
       <horizontalList></horizontalList>
     </t-tab-panel>
   </t-tabs>
