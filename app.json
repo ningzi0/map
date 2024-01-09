@@ -8,14 +8,15 @@
     "pages/mapNavigation/mapNavigation",
     "pages/MerchantDetails/MerchantDetails",
     "pages/search/search",
-    "pages/empty/empty"
+    "pages/empty/empty",
+    "pages/map/map"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "default",
     "navigationBarTitleText": "在行-迈扑Map",
     "navigationBarBackgroundColor": "#ffffff",
-    "enablePullDownRefresh":true
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#999",
@@ -27,6 +28,12 @@
         "text": "首页",
         "iconPath": "/assets/home.png",
         "selectedIconPath": "/assets/home-active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "MAP",
+        "iconPath": "/assets/map.png",
+        "selectedIconPath": "/assets/map-active.png"
       },
       {
         "pagePath": "pages/activity/activity",

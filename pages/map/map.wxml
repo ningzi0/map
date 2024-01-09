@@ -1,0 +1,26 @@
+<!--pages/map/map.wxml-->
+<view class="all">
+  <t-dropdown-menu>
+    <t-dropdown-item
+      label="全部分类"
+      optionsColumns="3"
+      options="{{category.options}}"
+      multiple
+    />
+  </t-dropdown-menu>
+</view>
+<view class="list">
+  <view class="item" wx:for="{{mapData}}">
+    <t-image src="{{item.imgUrl}}" mode="aspectFill" />
+    <view class="con">
+      <view class="fl">
+        <view class="tit">{{item.titName}}</view>
+        <view class="des">{{item.des}}</view>
+      </view>
+      <view class="fr">
+        <t-button theme="primary" size="small" icon="swap-right" shape="round">进入</t-button>
+      </view>
+    </view>
+  </view>
+</view>
+

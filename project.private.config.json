@@ -9,6 +9,20 @@
     "miniprogram": {
       "list": [
         {
+          "name": "MAP",
+          "pathName": "pages/map/map",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "日志",
+          "pathName": "pages/logs/logs",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "空状态",
           "pathName": "pages/empty/empty",
           "query": "",

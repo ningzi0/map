@@ -1,0 +1,47 @@
+/* pages/map/map.wxss */
+.all{
+  margin: 20rpx;
+  border-radius: 15rpx;
+  overflow: hidden;
+}
+.t-dropdown-menu::after{
+  display: none !important;
+}
+.list image{
+  width: 100%;
+  height: 300rpx;
+  border-radius: 15rpx;
+}
+.item{
+  padding:20rpx;
+  background: #fff;
+  margin: 20rpx;
+  border-radius: 15rpx;
+}
+.item .con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0 0;
+  border-top: 1px solid #eee;
+  margin-top: 20rpx;
+}
+.item .con .fl{
+  margin-right: 15rpx;
+}
+.item .con .fl .tit{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.item .con .fl .des{
+  font-size: 22rpx;
+  color: #999;
+}
+.item .con .fr button{
+  background-color: #000 !important;
+  color: #0ede92;
+}
+.item .con .fr .t-button--primary::after{
+  border: 1px solid #000 !important;
+}
