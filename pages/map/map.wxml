@@ -1,4 +1,7 @@
 <!--pages/map/map.wxml-->
+<view class="h3">
+  <view class="text">一张进入贵阳的地图</view>
+</view>
 <view class="all">
   <t-dropdown-menu>
     <t-dropdown-item
