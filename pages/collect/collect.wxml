@@ -1,4 +1,19 @@
-<gridList></gridList>
+
+<t-tabs
+  defaultValue="{{0}}"
+  bind:change="onTabsChange"
+  bind:click="onTabsClick"
+  t-class="custom-tabs"
+  t-class-content="custom-panel"
+  sticky
+>
+  <t-tab-panel label="商家" value="0" style="{{tabPanelstyle}}">
+    <collectList></collectList>
+  </t-tab-panel>
+  <t-tab-panel label="活动" value="1" style="{{tabPanelstyle}}">
+    <collectList></collectList>
+  </t-tab-panel>
+</t-tabs>
 
 
 

@@ -1,6 +1,8 @@
 {
   "usingComponents": {
-    "gridList":"/components/gridList/gridList"
+    "collectList":"/components/collectList/collectList",
+    "t-tabs": "tdesign-miniprogram/tabs/tabs",
+  "t-tab-panel": "tdesign-miniprogram/tab-panel/tab-panel"
   },
   "navigationBarTitleText": "我的收藏"
 }

@@ -1,0 +1,17 @@
+<!--components/gridList/gridList.wxml-->
+<view class="content">
+  <view class="item" wx:for="{{activityData}}" wx:for-index="index"> 
+    <view class="itemCon" bindlongtap="bindlongtap" bind:tap="navigateTo" data-index="{{index}}">
+      <t-image src="{{item.imgSrc}}" mode="aspectFill" />
+      <view class="i-info">
+          <view class="i-infoTitle">{{item.infoTitle}}</view>
+          <view class="i-infoDes">{{item.infoDes}}</view>
+      </view>
+      <view class="maxk" bind:tap="bindlongtap" hidden="{{item.hidden}}"  data-index="{{index}}">
+        <t-button class="share" theme="danger" size="large" shape="circle" >分享</t-button>
+        <t-button class="del" size="large" shape="circle">删除</t-button>
+      </view>
+      
+    </view>
+  </view>
+</view>
