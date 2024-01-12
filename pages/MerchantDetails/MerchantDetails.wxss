@@ -48,3 +48,21 @@
 .recommendContent{
   padding: 0 20rpx;
 }
+.address{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addressInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addressInfo text{
+  margin-left: 15rpx;
+}
+.address image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}

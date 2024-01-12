@@ -31,6 +31,13 @@
         </view>
       </view>
   </block>
+  <view class="address">
+    <view class="addressInfo">
+      <t-icon name="location" size="36rpx" />
+      <text>14.8km 白云区泉湖公园(龙井路北)</text>
+    </view>
+    <image src="../../assets/mapicon.jpg" mode="aspectFill"/>
+  </view>
 </view>
 
 <view class="recommend">
