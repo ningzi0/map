@@ -4,10 +4,24 @@
   "setting": {
     "compileHotReLoad": false
   },
-  "libVersion": "3.2.5",
+  "libVersion": "3.3.5",
   "condition": {
     "miniprogram": {
       "list": [
+        {
+          "name": "活动信息",
+          "pathName": "pages/EventInfo/EventInfo",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "报名",
+          "pathName": "pages/signUp/signUp",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
         {
           "name": "MAP",
           "pathName": "pages/map/map",

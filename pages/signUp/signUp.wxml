@@ -1,0 +1,73 @@
+<!--pages/signUp/signUp.wxml-->
+<view class="signUp">
+    <!-- 头部信息 -->
+    <view class="topInfo">
+      <view class="topInfoItem">
+          <view class="t-item" wx:for="{{itemData}}">
+            <t-image src="{{item.imageSrc}}" mode="aspectFill"/>
+            <view class="t-item-fr">
+                <view class="t-title">{{item.title}}</view>
+                <view class="t-tags">
+                  <t-icon name="location" size="30rpx"/>
+                  <text>{{item.tags}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="signUpInfo">
+          <view class="signUpInfoItem">
+            <view class="signUpInfoItem-fl">活动时间</view>
+            <view class="signUpInfoItem-fr">周五03.29 14: - 15:00</view>
+          </view>
+          <view class="signUpInfoItem">
+            <view class="signUpInfoItem-fl">购买数量<text>(剩余8张)</text></view>
+            <view class="signUpInfoItem-fr">
+              <t-stepper defaultValue="1" theme="filled" />
+            </view>
+          </view>
+          <view class="signUpInfoItem">
+            <view class="signUpInfoItem-fl">支付金额</view>
+            <view class="signUpInfoItem-fr price">￥500.00</view>
+          </view>
+        </view>
+        </view>
+    </view>
+
+    <!-- 报名信息 -->
+    <view class="signUp-form">
+        <view class="signUptitle">报名信息</view>
+        <form>
+          <t-input label="参与者姓名" value="" placeholder="请输入姓名"></t-input>
+          <t-input label="电话" value="" type="number" placeholder="请输入电话"></t-input>
+          <t-input label="人数"  type="number" placeholder="请输入人数"></t-input>
+          <t-input label="职业" placeholder="请输入职业"></t-input>
+          <t-input label="个人介绍" placeholder="(非必填)"></t-input>
+        </form>
+    </view>
+
+    <!-- 支付说明 -->
+    <view class="instructions">
+      <view class="signUptitle">支付说明</view>
+      <view class="instructions-content">
+          <view class="item">
+            <view class="h3">退换规则</view>
+            <view class="li">● 距活动开始12小时前随时可退</view>
+            <view class="li">● 距活动不足12小时与主办方协商退款</view>
+          </view>
+          <view class="item">
+            <view class="h3">无条件退换规则</view>
+            <view class="li">● 因天气恶劣导致活动无法正常举行</view>
+            <view class="li">● 因不可抗力导致活动无法举办</view>
+            <view class="li">● 疫情原因导致活动无法举办</view>
+          </view>
+          <view class="item">
+            <view class="h3">运动意外保障服务声明</view>
+            <view class="li">● 运动意外保障投保年龄范围为1岁(含)-70岁(含)，不符合年龄范围会导致投保失败。</view>
+          </view>
+      </view>
+    </view>
+
+    <view class="submit">
+        <button>确认支付 ￥500.00</button>
+    </view>
+
+</view>

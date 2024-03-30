@@ -9,7 +9,9 @@
     "pages/MerchantDetails/MerchantDetails",
     "pages/search/search",
     "pages/empty/empty",
-    "pages/map/map"
+    "pages/map/map",
+    "pages/signUp/signUp",
+    "pages/EventInfo/EventInfo"
   ],
   "window": {
     "navigationBarTextStyle": "black",

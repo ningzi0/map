@@ -1,0 +1,117 @@
+<!--pages/EventInfo/EventInfo.wxml-->
+<view class="eventinfo">
+    <t-swiper
+      current="{{current}}"
+      autoplay="{{autoplay}}"
+      duration="{{duration}}"
+      interval="{{interval}}"
+      navigation="{{ { type: 'dots' } }}"
+      list="{{swiperList}}"
+    >
+    </t-swiper>
+
+    <!-- 活动信息 -->
+    <view class="info">
+        <view class="price">
+            <view class="box"></view>
+            <view class="box2"></view>
+            <view class="priceText">500.00 <text>元每人</text></view>
+        </view>
+        <view class="title">贵阳夜校 | 周易预测！感受不一样的奇门体验</view>
+        <view class="info-item">
+          <view class="info-i-fl">
+            <t-icon name="time" size="28rpx" /> <text>活动时间：14:00 - 15:00周五 03.29</text>
+          </view>
+        </view>
+        <view class="info-item">
+          <view class="info-i-fl">
+            <t-icon name="location" size="28rpx" /> <text>18.8km 易简国学</text>
+          </view>
+          <view class="info-i-fr address">
+            <image src="../../assets/mapicon.jpg" mode="aspectFill"/>
+          </view>
+        </view>
+        <view class="info-item">
+          <view class="info-i-fl">
+              <t-tag class="margin-16" theme="success">公告</t-tag> <text>易简国学</text>
+          </view>
+          <view class="info-i-fr address">
+            <t-icon name="chevron-right-s" size="48rpx" color="#999" />
+          </view>
+        </view>
+    </view>
+
+    <!-- 活动描述 -->
+    <view class="section">
+        <view class="s-title">活动描述</view>
+        <view class="s-content" style="height:{{scHeight}}">
+          <view>八卦象意、预测、风水、奇门体验.... </view>
+          <view>等你来解锁~</view>
+          <view> ●</view>
+          <view>老师简介:</view>
+          <view>王显幕，8岁便萌生对佛、道的兴趣。</view>
+          <view>10岁随父亲学习各种民间法。12岁开始学道。</view>
+          <view>2013年开始学习奇门遁甲，后又涉猎六爻、梅花易数等多门易学体系。</view>
+          <view>2014年于终南山隐居后创立出独有的预测体系:阴阳法。</view>
+        </view>
+        <view class="open" bind:tap="openHeight" wx:if="{{!hidden}}">
+            <text>展开</text>
+            <t-icon name="chevron-down-s" size="48rpx"/>
+        </view>
+        <view class="open" bind:tap="closeHeight" wx:else>
+            <text>收起</text>
+            <t-icon name="chevron-up-s" size="48rpx"/>
+        </view>
+    </view>
+
+    <!-- 详情图片 -->
+    <view class="section">
+      <view class="s-title">详情图片</view>
+      <view class="s-content">
+        <t-image wx:for="{{imgList}}" src="{{item}}" mode="aspectFill" />
+      </view>
+    </view>
+
+    <!-- 热评 -->
+    <view class="comment section">
+        <view class="s-title c-title"> 
+            <view>热门评论(1162条)</view>
+            <view class="addComment">
+              <t-button size="large" variant="outline" size="small" shape="round">添加新评论</t-button>
+            </view>
+        </view>
+        <view class="c-content">
+            <view class="c-item" wx:for="{{commentList}}">
+              <view class="pic">
+                <t-image src="{{item.Avatar}}" width="80rpx" height="80rpx" mode="aspectFill" />
+              </view>
+              <view class="c-item-r">
+                  <view class="c-item-r-t">
+                      <view class="name">{{item.name}}</view>
+                      <view class="info">{{item.info}}</view>
+                  </view>
+                  <view class="c-item-r-t-desc">{{item.desc}}</view>
+              </view>
+            </view>
+        </view>
+        <view class="allComment">全部1162条评论</view>
+    </view>
+
+</view>
+<!-- 底部按钮 -->
+<view class="footer">
+    <view class="f-l">
+        <view class="f-l-item">
+          <t-icon name="send" size="48rpx"/>
+          <text>私信</text>
+        </view>
+        <view class="f-l-item">
+          <t-icon name="share-1" size="48rpx"/>
+          <text>分享</text>
+        </view>
+    </view>
+    <view class="f-r">
+        <button>报名<text>(￥500.00)</text></button>
+    </view>
+</view>
+

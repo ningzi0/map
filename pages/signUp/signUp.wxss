@@ -1,0 +1,111 @@
+/* pages/signUp/signUp.wxss */
+.topInfo{
+  background: #fff;
+}
+.t-item{
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #fafafa;
+}
+.t-item image{
+  width: 190rpx;
+  height: 144rpx;
+  border-radius: 10rpx;
+}
+.t-item .t-item-fr{
+  flex: 1;
+  font-size: 32rpx;
+  padding:0 20rpx;
+}
+.t-title{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 460rpx;
+}
+.t-tags{
+  display: flex;
+  align-items:center ;
+  font-size: 28rpx;
+  margin-top: 15rpx;
+}
+
+
+.signUpInfo{
+  padding: 60rpx 20rpx;
+  font-size: 28rpx;
+}
+.signUpInfoItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 0;
+}
+.signUpInfoItem text{
+  color: #999;
+}
+.signUpInfoItem .price{
+  color: #eb011a;
+}
+
+
+/* 报名信息 */
+.signUp-form{
+  margin-top: 20rpx;
+  background: #fff;
+}
+.signUptitle{
+  padding: 20rpx;
+  border-bottom: 1px solid #fafafa;
+}
+.signUp-form .t-input__label:not(:empty){
+  font-size: 28rpx !important;
+}
+.t-input__wrap .t-input__content{
+  font-size: 28rpx !important;
+}
+.t-input__wrap--prefix{
+  width: 180rpx;
+}
+
+/* 支付说明 */
+.instructions{
+  background: #fff;
+  margin-top: 20rpx;
+  padding-bottom: 100rpx;
+}
+.instructions-content{
+  font-size: 28rpx;
+  padding: 20rpx;
+}
+.instructions-content .item{
+  padding: 15rpx 0;
+}
+.instructions-content .item .h3{
+  margin-bottom: 8rpx;
+}
+.instructions-content .item .li{
+  color: #999;
+  line-height: 1.75;
+}
+
+.submit{
+  padding: 20rpx 50rpx;
+  background: #fff;
+  border-top: 1px solid #eee;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 55;
+}
+.submit button{
+  font-size: 34rpx;
+  background: #222222;
+  color: #1cbc67;
+  border-radius: 200rpx;
+}
+.submit button:active{
+  background: #222222a6;
+}
+
