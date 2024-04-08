@@ -175,8 +175,14 @@ swiper image{
   flex: 1;
   justify-content:space-around;
 }
-.footer .f-l .f-l-item{
+
+.footer .f-l .f-l-item button{
   padding: 0 20rpx;
+  line-height: 1;
+  background: none;
+}
+.footer .f-l .f-l-item button::after{
+  border: 0;
 }
 .footer .f-l .f-l-item text{
   font-size: 28rpx;

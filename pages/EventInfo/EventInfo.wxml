@@ -102,12 +102,16 @@
 <view class="footer">
     <view class="f-l">
         <view class="f-l-item">
-          <t-icon name="send" size="48rpx"/>
-          <text>私信</text>
+          <button>
+            <t-icon name="send" size="48rpx"/>
+            <text>私信</text>
+          </button>
         </view>
         <view class="f-l-item">
+          <button>
           <t-icon name="share-1" size="48rpx"/>
           <text>分享</text>
+          </button>
         </view>
     </view>
     <view class="f-r">
